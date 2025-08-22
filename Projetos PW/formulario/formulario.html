@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <h1>Formulario</h1>
+    <form>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="name">Nome:</label>
+            <input type="text" placeholder="Coloque seu nome"><br>
+            <label>Estado:</label>
+            <select>
+                <optgroup label="Norte">
+                    <option value="AC">AC</option>
+                    <option value="AP">AP</option>
+                    <option value="AM">AM</option>
+                    <option value="PA">PA</option>
+                    <option value="RO">RO</option>
+                    <option value="RR">RR</option>
+                    <option value="TO">TO</option>
+                </optgroup>
+                <optgroup label="Nordeste">
+                    <option value="">AL</option>
+                    <option value="">BA</option>
+                    <option value="">CE</option>
+                    <option value="">MA</option>
+                    <option value="">PB</option>
+                    <option value="">PE</option>
+                    <option value="">PI</option>
+                    <option value="">RN</option>
+                    <option value="">SE</option>
+                </optgroup>
+                <optgroup label="Centro-oeste">
+                    <option value="">GO</option>
+                    <option value="">MT</option>
+                    <option value="">MS</option>
+                    <option value="">DF</option>
+                </optgroup>
+                <optgroup label="Suldeste">
+                    <option value="">ES</option>
+                    <option value="">MG</option>
+                    <option value="">RJ</option>
+                    <option value="">SP</option>
+                </optgroup>
+                <optgroup label="Sul">
+                    <option value="">PR</option>
+                    <option value="">SC</option>
+                    <option value="">RS</option>
+                </optgroup>
+            </select><br>
+            <label for="Sobrenome">Cidade:</label>
+            <input type="text" placeholder="Coleque sua Cidade"><br>
+            <label>Telefone:</label>
+            <input type="number" placeholder="Coleque seu Telefone"><br>
+            <label>Email:</label>
+            <input type="email" placeholder="Coloque seu email"><br>
+            <label for="Sexo">Sexo:</label>
+            <input type="radio" name="Sexo"> <label>Masculino</label>
+            <input type="radio" name="Sexo"> <label>Feminino</label><br>
+        </fieldset><br>
+        <fieldset>
+            <legend>Conteudo desejado</legend>
+            <label>Temas</label><br>
+            <input type="checkbox"><label>Comédia</label>
+            <input type="checkbox"><label>Memes</label>
+            <input type="checkbox"><label>Ciência</label>
+            <input type="checkbox"><label>Danças</label>
+            <input type="checkbox"><label>Romance</label>
+            <input type="checkbox"><label>História</label><br>
+            <label>OBS:</label> <textarea rows="10" cols="40"></textarea>
+        </fieldset><br>
+        <input type="submit" class="bnt"> <input type="reset" class="bnt">
+    </form><br><br><br>
+    <a href="/horario escolar/horario escolar.html">Vja seus horarios</a>
+</body>
+
+</html>

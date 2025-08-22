@@ -1,0 +1,41 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    font-family: "Arsenal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(4, 4, 4);
+    background-color: rgb(144, 144, 144);
+    display: block;
+}
+
+fieldset{
+    border-radius: 5px;
+    color: rgb(187, 239, 158);
+    font-size: medium;
+    margin-top: 50px;
+}
+
+input{
+    margin: 2px;
+    border: none;
+    outline: none;
+   
+}
+
+.bnt{
+  width: 100px ;
+}
+
+input:hover{
+  background-color: rgb(187, 239, 158);
+}
